@@ -13,10 +13,10 @@
 
       button.addEventListener('click',function(e){
         if(count == -4) {
-          count = 1;
+          count = 0;
         }  
 
-        count++;
+        count--;
 
         sliderCard.forEach((card)=>{
         card.style.transform = `translateX(${count*100}%)`;
@@ -44,7 +44,7 @@
 
       setInterval(()=>{
         if(count == -4) {
-          count = 1;
+          count = 0;
         }  
 
         count--;
