@@ -22,5 +22,7 @@ This project is a simple UI clone of the Amazon website. It includes a sticky he
 
 1. **Clone the Repository**
 
-https://github.com/shivam1tiwari/Amazon-project
+```bash
+clone https://github.com/shivam1tiwari/Amazon-project
+```
 
